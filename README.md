@@ -13,7 +13,8 @@ Project built for the FineTune Selection, demonstrating how to structure OOP con
 
 ## Quickstart
 
-```sh
+```javascript
+
 # 1. Clone this repository
 git clone https://github.com/matheuseabra/finetune-oop-typescript.git
 
@@ -29,19 +30,11 @@ npm run e2e -- --feature= example // Run a specific tagged test(s) / featurefile
 ```
 
 ## CucumberJS compiles on-the-fly
+
 With the provided setup in the [`protractor.shared.conf.js`](/e2e-tests/config/protractor.shared.conf.js) you don't need to compile the TypeScript files before you run them. It will be done automatically for you with the `compiler` in the `cucumberOpts`.
 
-```
-cucumberOpts: {
-	compiler: "ts:ts-node/register",
-	require: [..],
-	format: 'pretty',
-	tags: ''
-}
-```
-
-# Author
+## Author
 
 This project was developed by Matheus Seabra.
 
-- Website: http://matheuseabra.me
+matheuseabra.me
