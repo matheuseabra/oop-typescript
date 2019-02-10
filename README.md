@@ -1,4 +1,4 @@
-# FineTune OOP Typescript
+# FineTune OOP Typescript 🚀
 
 [![Build Status](https://travis-ci.org/wswebcreation/protractor-cucumber-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/wswebcreation/protractor-cucumber-typescript-boilerplate)
 
