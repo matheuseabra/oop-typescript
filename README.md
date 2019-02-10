@@ -15,12 +15,15 @@ Project built for the FineTune Selection, demonstrating how to structure OOP con
 
 ```sh
 # 1. Clone this repository
-git clone
+git clone https://github.com/matheuseabra/finetune-oop-typescript.git
 
 # 2. Navigate to the project root directory
+cd finetune-oop-typescript
+
+3. Install project dependencies
 npm install
 
-# 3. Run tests
+# 4. Run tests
 npm run e2e // Run all the available featurefiles
 npm run e2e -- --feature= example // Run a specific tagged test(s) / featurefile(s)
 ```
