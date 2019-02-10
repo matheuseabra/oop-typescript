@@ -1,7 +1,6 @@
 {
-  "name": "protractor-cucumber-typescript-boilerplate",
+  "name": "finetune-oop-typescript",
   "version": "3.0.1",
-  "description": "A boilerplate for starting a Protractor test setup with CucumberJS and TypeScript",
   "main": "index.js",
   "scripts": {
     "e2e": "protractor e2e-tests/config/protractor.e2e.conf.js",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wswebcreation/protractor-cucumber-typescript-boilerplate.git"
+    "url": "git+https://github.com/matheuseabra/finetune-oop-typescript.git"
   },
   "keywords": [
     "protractor",
@@ -23,9 +22,8 @@
   "author": "wswebcreation",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wswebcreation/protractor-cucumber-typescript-boilerplate/issues"
+    "url": "https://github.com/matheuseabra/finetune-oop-typescript/issues"
   },
-  "homepage": "https://github.com/wswebcreation/protractor-cucumber-typescript-boilerplate#readme",
   "devDependencies": {
     "@types/chai": "^4.0.4",
     "@types/chai-as-promised": "^7.1.0",
@@ -35,7 +33,7 @@
     "chai-as-promised": "^7.1.1",
     "cucumber": "~3.0.1",
     "fs-extra": "^4.0.1",
-    "protractor": "5.1.2",
+    "protractor": "^5.4.2",
     "protractor-cucumber-framework": "~4.1.1",
     "protractor-flake": "^3.0.0",
     "protractor-multiple-cucumber-html-reporter-plugin": "^1.1.0",
