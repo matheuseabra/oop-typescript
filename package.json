@@ -8,10 +8,6 @@
     "travis": "protractor e2e-tests/config/protractor.travis.conf.js",
     "postinstall": "webdriver-manager update"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matheuseabra/finetune-oop-typescript.git"
-  },
   "keywords": [
     "protractor",
     "cucumber",
@@ -19,11 +15,8 @@
     "typescript",
     "boilerplate"
   ],
-  "author": "wswebcreation",
+  "author": "Matheus Seabra",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matheuseabra/finetune-oop-typescript/issues"
-  },
   "devDependencies": {
     "@types/chai": "^4.0.4",
     "@types/chai-as-promised": "^7.1.0",
