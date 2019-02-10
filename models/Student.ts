@@ -7,6 +7,7 @@ import IStudent from '../interfaces/IStudent';
  * 
  * @class Student
  * @extends {Person}
+ * @implements {IStudent}
  */
 
 export default class Student extends Person implements IStudent {
@@ -14,7 +15,7 @@ export default class Student extends Person implements IStudent {
     public averageGrade: Number;
     public classes: Class[];
     public quizzes: Quiz[];
- 
+
     completeQuiz(quiz: Quiz) {
       quiz.questions.map(question => console.log(`Answered ${question}`));
       quiz.completed = true;

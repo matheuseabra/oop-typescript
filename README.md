@@ -25,8 +25,8 @@ cd finetune-oop-typescript
 npm install
 
 # 4. Run tests
-npm run e2e // Run all the available featurefiles
-npm run e2e -- --feature= example // Run a specific tagged test(s) / featurefile(s)
+npm run e2e // Run all the available feature files
+npm run e2e -- --feature= example // Run a specific tagged test(s) / feature file(s)
 ```
 
 ## CucumberJS compiles on-the-fly
