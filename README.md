@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/wswebcreation/protractor-cucumber-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/wswebcreation/protractor-cucumber-typescript-boilerplate)
 
-Project built for the FineTune Selection, demonstrating how to structure OOP concepts with TypeScript, writing tests using Protactor as testing library along with CucumberJS and Gherkin language.
+Project built for the FineTune Selection, demonstrating how to structure OOP concepts with TypeScript, writing tests using Protactor as testing library along with CucumberJS and the Gherkin language.
 
 ## Features
 
@@ -29,12 +29,6 @@ npm run e2e // Run all the available feature files
 npm run e2e -- --feature= example // Run a specific tagged test(s) / feature file(s)
 ```
 
-## CucumberJS compiles on-the-fly
-
 With the provided setup in the [`protractor.shared.conf.js`](/e2e-tests/config/protractor.shared.conf.js) you don't need to compile the TypeScript files before you run them. It will be done automatically for you with the `compiler` in the `cucumberOpts`.
 
-## Author
-
-This project was developed by Matheus Seabra.
-
-matheuseabra.me
+Found a bug? Please create an issue.
