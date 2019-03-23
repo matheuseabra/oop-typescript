@@ -1,8 +1,8 @@
-# FineTune OOP Typescript 🚀
+# OOP Typescript
 
 [![Build Status](https://travis-ci.org/wswebcreation/protractor-cucumber-typescript-boilerplate.svg?branch=master)](https://travis-ci.org/wswebcreation/protractor-cucumber-typescript-boilerplate)
 
-Project built for the FineTune Selection, demonstrating how to structure OOP concepts with TypeScript, writing tests using Protactor as testing library along with CucumberJS and the Gherkin language.
+Project demonstrating how to structure OOP concepts with TypeScript, writing tests using Protactor as testing library along with CucumberJS and the Gherkin language.
 
 ## Features
 
