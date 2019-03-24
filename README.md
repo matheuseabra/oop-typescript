@@ -16,7 +16,7 @@ Project demonstrating how to structure OOP concepts with TypeScript, writing tes
 ```javascript
 
 # 1. Clone this repository
-git clone https://github.com/matheuseabra/finetune-oop-typescript.git
+git clone https://github.com/matheuseabra/oop-typescript.git
 
 # 2. Navigate to the project root directory
 cd finetune-oop-typescript
